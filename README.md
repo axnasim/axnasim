@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/axnasim/axnasim">
-    <img src="https://user-images.githubusercontent.com/20955511/199138068-0a7b7b75-a024-4f00-803f-30a19c5d1b2d.png" alt="Adam Nasim" /></a>
+    <img src="https://user-images.githubusercontent.com/72034e9f-d2c6-4a4f-8e34-9f1c851a0c4f.png" alt="Adam Nasim" /></a>
 </p>
 
 <p align="center">
