@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/axnasim/axnasim">
+  <a href="https://github.com/axnasim">
     <img src="https://user-images.githubusercontent.com/72034e9f-d2c6-4a4f-8e34-9f1c851a0c4f.png" alt="Adam Nasim" /></a>
 </p>
 
