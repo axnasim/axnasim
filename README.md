@@ -46,6 +46,7 @@
 - [Linux Performance](https://www.brendangregg.com/linuxperf.html) - Performance analysis tools
 - [ArchWiki](https://wiki.archlinux.org/) - Comprehensive Linux documentation
 - [Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/) - Official kernel docs
+- [Sed & Awk](http://www.nylxs.com/docs/sedandawk.pdf) - Are they dead yet
 
 ## Machine Learning
 - [Machine Learning Roadmap](https://roadmap.sh/mlops) - ML Engineer learning path
@@ -70,7 +71,6 @@
 - [Awesome System Design](https://github.com/madd86/awesome-system-design) - Curated resources
 - [ByteByteGo](https://bytebytego.com/) - System design education platform
 - [Designing Data-Intensive Applications](https://dataintensive.net/) - Essential system design book
-
 
 *Feel free to contribute or suggest additional resources!*
 
