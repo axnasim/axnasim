@@ -10,9 +10,9 @@
 
 <!-- Social icons section -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/adamnasim/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://github.com/axnasim/axnasim/blob/master/icons/linkedin.png"/></a>
+  <a href="https://www.linkedin.com/in/adamnasim/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://medium.com/@axnasim"><img width="32px" alt="Medium" title="AN Medium" src="https://github.com/axnasim/axnasim/blob/master/icons/medium.png"></a>
+  <a href="https://medium.com/@axnasim"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;                                         
 </p>
 
