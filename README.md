@@ -1,9 +1,7 @@
-<p align="center">
-  <a href="https://github.com/axnasim">
-    <img src="https://user-images.githubusercontent.com/3477769/513568420-8a21af5d-7ef6-475d-9241-b488b6d93f6d" alt="Adam Nasim" /></a>
-</p>
+<h2 align="center"> <a="#">Adam Nasim</a></h2>
 
 <p align="center">
-    <!-- Typing SVG by axnasim - https://github.com/axnasim/readme-typing-svg -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&width=435&lines=8%2B+years+Engineering+Leadership;Cloud+%26+Platform+Architect;Ray+Framework+%26+ML+Enthusiast+;Techie+Writer+%26+Learner" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&width=435&lines=8%2B+years+Engineering+Leadership;Cloud+%26+Platform+SRE;Ray+Framework+%26+ML+;Techie+Writer+%26+Learner"
+  </a>
 </p>
