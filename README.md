@@ -1,4 +1,4 @@
-<h2 align="center"> <a="#">Adam Nasim</a></h2>
+<h2 align="center"><a style="color:#36BCF7FF;" href="#">Adam Nasim</a></h2>
 
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&width=435&lines=8%2B+years+Engineering+Leadership;Cloud+%7C+Platform+%7C+SRE+%7C+Startups;Ray+Framework+%7C+ML+Enthusiast+;Techie+Writer+%26+Learner" alt="Typing SVG" /></a>
