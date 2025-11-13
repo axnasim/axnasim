@@ -71,10 +71,8 @@
 - [ByteByteGo](https://bytebytego.com/) - System design education platform
 - [Designing Data-Intensive Applications](https://dataintensive.net/) - Essential system design book
 
----
 
 *Feel free to contribute or suggest additional resources!*
-
 
 <p align="center">
   <p align="left">
