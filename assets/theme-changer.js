@@ -31,3 +31,46 @@ document.addEventListener('DOMContentLoaded', () => {
     themeBtn.addEventListener('click', toggleTheme);
   }
 });
+
+// --- Size equalizer: make grid cards in each row match height dynamically ---
+// Works per-grid: measures number of columns from computed gridTemplateColumns
+// and equalizes heights for each row. Runs on load and debounced resize.
+;(function(){
+  function debounce(fn, ms){
+    let t;
+    return function(...args){
+      clearTimeout(t);
+      t = setTimeout(() => fn.apply(this,args), ms);
+    };
+  }
+
+  function equalizeGrid(grid){
+    if(!grid) return;
+    const children = Array.from(grid.children).filter(n => n.nodeType===1);
+    if(children.length===0) return;
+
+    // reset heights
+    children.forEach(c => { c.style.height = 'auto'; });
+
+    const computed = window.getComputedStyle(grid);
+    const cols = computed.gridTemplateColumns ? computed.gridTemplateColumns.split(' ').length : 1;
+    if(cols <= 1){ return; }
+
+    for(let i=0;i<children.length;i+=cols){
+      const row = children.slice(i, i+cols);
+      const heights = row.map(r => Math.ceil(r.getBoundingClientRect().height));
+      const max = Math.max(...heights, 0);
+      row.forEach(r => { r.style.height = max + 'px'; });
+    }
+  }
+
+  function equalizeAll(){
+    const grids = document.querySelectorAll('.resources-grid');
+    grids.forEach(g => equalizeGrid(g));
+  }
+
+  // Run after DOM is parsed and a short delay to allow font/layout to stabilize
+  document.addEventListener('DOMContentLoaded', () => setTimeout(equalizeAll, 60));
+  // Re-run on window resize
+  window.addEventListener('resize', debounce(equalizeAll, 120));
+})();

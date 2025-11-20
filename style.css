@@ -107,7 +107,7 @@ a:hover{text-decoration:underline}
 }
 
 /* Remove extra bottom margin inside a grid cell (cards already have visual separation via grid gap) */
-.resources-grid .card{ margin-bottom: 0; display:flex; flex-direction:column; height:100%; min-height:160px }
+.resources-grid .card{ margin-bottom: 0; display:flex; flex-direction:column; height:100%; }
 
 /* Let the list or paragraph inside a card take remaining vertical space so cards line up */
 .resources-grid .card > ul,
