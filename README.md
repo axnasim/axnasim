@@ -1,7 +1,3 @@
----
-title: "Adam Nasim"
-description: "Cloud | Platform | SRE — Ray Framework • ML Enthusiast"
----
 
 <h1 align="center">
   <a href="https://github.com/axnasim">
