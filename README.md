@@ -5,29 +5,21 @@
   </a>
 </h1>
 
+<!-- <p align="center">
+  [![Adam Nasim](https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=for-the-badge)](https://github.com/axnasim)
+</p> -->
+
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&width=435&lines=8%2B+years+Engineering+Leadership;Cloud+%7C+Platform+%7C+SRE+%7C+Startups;Ray+Framework+%7C+ML+Enthusiast+;Techie+Writer+%26+Learner" alt="Typing SVG" /></a>
 </p>
 
 <!-- Social icons section -->
-<p align="center">
+<!-- <p align="center">
   <a href="https://www.linkedin.com/in/adamnasim/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   &#8287;
   <a href="https://medium.com/@axnasim"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
   &#8287;                                    
-</p>
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-<!-- Badge + intro (markdown-native where possible; center visually with a small HTML wrapper) -->
-<p align="center">
-  [![Adam Nasim](https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=for-the-badge)](https://github.com/axnasim)
-</p>
-
-<p align="center">
-  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&width=435&lines=8%2B+years+Engineering+Leadership;Cloud+%7C+Platform+%7C+SRE+%7C+Startups;Ray+Framework+%7C+ML+Enthusiast+;Techie+Writer+%26+Learner)
-</p>
+</p> -->
 
 <p align="center">
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adamnasim/)
@@ -35,10 +27,10 @@
   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@axnasim)
 </p>
 
-I'm and engineering leader focused on ML, Ray, SRE, Cloud and Developer Experience. I also write about distributed systems, ML, and platform engineering.
-
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
+
+I'm an engineering leader focused on ML, Ray, Reliability, Cloud and Developer Experience. I also opine on kubernetes and Machine Learning.
 
 ## DevOps
 
@@ -48,6 +40,7 @@ I'm and engineering leader focused on ML, Ray, SRE, Cloud and Developer Experien
 - [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) - Technical interview questions and exercises
 - [Infrastructure as Code](https://www.terraform.io/intro) - Terraform introduction and best practices
 
+
 ## Engineering Leadership
 
 - [The Manager's Path](https://www.oreilly.com/library/view/the-managers-path/9781491973882/) - Guide to navigating IC to CTO roles
@@ -56,12 +49,14 @@ I'm and engineering leader focused on ML, Ray, SRE, Cloud and Developer Experien
 - [Leading Snowflakes](http://leadingsnowflakes.com/) - Engineering management handbook
 - [Rands Leadership Slack](https://randsinrepose.com/welcome-to-rands-leadership-slack/) - Community for tech leaders
 
+
 ## Kubernetes
 
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/) - Official Kubernetes docs
 - [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Must Learn Kubernetes - Bootstrap K8s from scratch
 - [CNCF Landscape](https://landscape.cncf.io/) - Cloud native ecosystem overview
 - [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Curated K8s resources
+
 
 ## Linux
 
@@ -73,6 +68,7 @@ I'm and engineering leader focused on ML, Ray, SRE, Cloud and Developer Experien
 - [Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/) - Official kernel docs
 - [Sed & Awk](http://www.nylxs.com/docs/sedandawk.pdf) - Are they dead yet
 
+
 ## Machine Learning
 
 - [Machine Learning Roadmap](https://roadmap.sh/mlops) - ML Engineer learning path
@@ -80,11 +76,13 @@ I'm and engineering leader focused on ML, Ray, SRE, Cloud and Developer Experien
 - [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) - Free ML fundamentals
 - [Kaggle](https://www.kaggle.com/learn) - Hands-on ML tutorials and competitions
 
+
 ## Ray Framework
 
 - [Ray Documentation](https://docs.ray.io/en/latest/) - Official Ray docs
 - [Ray Tutorial](https://github.com/ray-project/tutorial) - Hands-on Ray tutorials
 - [Anyscale Academy](https://github.com/anyscale/academy) - Ray and distributed computing courses
+
 
 ## System Design
 
@@ -94,6 +92,7 @@ I'm and engineering leader focused on ML, Ray, SRE, Cloud and Developer Experien
 - [Awesome System Design](https://github.com/madd86/awesome-system-design) - Curated resources
 - [ByteByteGo](https://bytebytego.com/) - System design education platform
 - [Designing Data-Intensive Applications](https://dataintensive.net/) - Essential system design book
+
 
 ## Engineering Product Management
 
