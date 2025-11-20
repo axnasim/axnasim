@@ -20,17 +20,6 @@
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
-## DevOps
-- [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS applications
-- [DevOps Roadmap](https://roadmap.sh/devops) - Interactive learning path for DevOps
-- [GitOps Guide](https://www.gitops.tech/) - Comprehensive GitOps principles and practices
-- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) - Technical interview questions and exercises
-- [Infrastructure as Code](https://www.terraform.io/intro) - Terraform introduction and best practices
----
-title: "Adam Nasim"
-description: "Cloud | Platform | SRE — Ray Framework • ML Enthusiast"
----
-
 <!-- Badge + intro (markdown-native where possible; center visually with a small HTML wrapper) -->
 <p align="center">
   [![Adam Nasim](https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=for-the-badge)](https://github.com/axnasim)
@@ -46,7 +35,7 @@ description: "Cloud | Platform | SRE — Ray Framework • ML Enthusiast"
   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@axnasim)
 </p>
 
-A short intro: I'm Adam Nasim — an engineering leader focused on Cloud, Platform, and SRE. I write about distributed systems, ML, and platform engineering.
+I'm and engineering leader focused on ML, Ray, SRE, Cloud and Developer Experience. I also write about distributed systems, ML, and platform engineering.
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
