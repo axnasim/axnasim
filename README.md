@@ -14,18 +14,18 @@
 </p>
 
 <!-- Social icons section -->
-<!-- <p align="center">
+<p align="center">
   <a href="https://www.linkedin.com/in/adamnasim/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   &#8287;
   <a href="https://medium.com/@axnasim"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
-  &#8287;                                    
-</p> -->
+  &#8287;
+</p>
 
-<p align="center">
+<!-- <p align="center">
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adamnasim/)
   &nbsp;&nbsp;
   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@axnasim)
-</p>
+</p> -->
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
@@ -100,6 +100,6 @@
 
 ## 📊 Engineering Product Management
 - [Engineering vs Product Management](https://www.oreilly.com/library/view/engineering-vs-product/97814) – Intercom Blog
-- [The Role of a Technical Product Manager](https://www.oreilly.com/library/view/the-role-of-a/9781) – Product School- 
+- [The Role of a Technical Product Manager](https://www.oreilly.com/library/view/the-role-of-a/9781) – Product School-
 - [Balancing Engineering and Product Priorities](https://www.oreilly.com/library/view/balancing-engineering/9781) – LeadDev
 :::
