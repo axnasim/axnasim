@@ -29,8 +29,8 @@
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-<h2 align="center>
-I’m an engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, and I regularly share thoughts on Kubernetes and scaling startups.
+<h2 style="text-align: center;">
+  Engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, sharing insights on Kubernetes and scaling startups.
 </h2>
 
 ::: {.resources-grid}
