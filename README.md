@@ -29,7 +29,7 @@
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-<p align="center">
+<h2 align="center">
 I’m an engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, and I regularly share thoughts on Kubernetes and scaling startups.
 </h2>
 

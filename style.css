@@ -130,7 +130,7 @@ a:hover{text-decoration:underline}
    Adjust --page-reserve to account for header/footer/padding. You can remove this if you
    prefer JS-driven exact sizing. */
 .resources-grid .card{
-    --page-reserve: 140px; /* estimated header + padding; tweak if needed */
+    --page-reserve: 100px; /* safer conservative default; JS may override this */
     max-height: calc((100vh - var(--page-reserve)) / 2);
 }
 
