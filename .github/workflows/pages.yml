@@ -38,15 +38,26 @@ jobs:
 
       - name: Convert README.md to index.html (dockerized pandoc)
         run: |
-          # Use the official pandoc Docker image to avoid installing pandoc on the runner
-          # Create the _site directory up-front
+          # Quick diagnostics so the Actions log shows what files exist on the runner
+          echo "Workspace: $GITHUB_WORKSPACE"
+          ls -la "$GITHUB_WORKSPACE"
+          echo "-- top of README.md --"
+          head -n 20 README.md || true
+          echo "-- end preview --"
+
+          # Create the _site directory up-front on the host workspace
           mkdir -p _site
-          # Run pandoc inside the container, mounting the workspace at /work
-          docker run --rm -v "$GITHUB_WORKSPACE":/work -w /work pandoc/latex:3.1 \
-            pandoc README.md -o _site/index.html --standalone --css=style.css
-          # Copy style.css into _site if present (container wrote to _site)
+
+          # Run pandoc inside the container, mounting the workspace at /work.
+          # Use absolute paths so pandoc can't be confused by working-dir differences.
+          docker run --rm -v "$GITHUB_WORKSPACE":/work pandoc/latex:3.1 \
+            pandoc /work/README.md -o /work/_site/index.html --standalone --css=/work/style.css
+
+          # Ensure style.css is present in _site for GitHub Pages
           if [ -f style.css ]; then
             cp style.css _site/
+          else
+            echo "style.css not found in repository root; continuing without it"
           fi
 
       - name: Setup Pages
