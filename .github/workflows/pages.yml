@@ -88,7 +88,8 @@ jobs:
             if grep -q 'class="hero"' _site/index.html; then
               echo "hero already present"
             else
-              perl -0777 -pe "s|<body([^>]*)>|<body\1>\n<div class=\"hero card\">\n  <img src=\"https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=for-the-badge\" alt=\"Adam Nasim\" width=\"120\"/>\n  <div>\n    <h1 class=\"title\">Adam Nasim</h1>\n    <p class=\"subtitle\">Cloud | Platform | SRE — Ray Framework • ML Enthusiast</p>\n  </div>\n</div>|s" -i _site/index.html || true
+              # Use a different delimiter (#) so inner '|' characters don't break the perl expression
+              perl -0777 -pe 's#<body([^>]*)>#<body\1>\n<div class="hero card">\n  <img src="https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=for-the-badge" alt="Adam Nasim" width="120"/>\n  <div>\n    <h1 class="title">Adam Nasim</h1>\n    <p class="subtitle">Cloud | Platform | SRE — Ray Framework • ML Enthusiast</p>\n  </div>\n</div>#s' -i _site/index.html || true
               echo "Inserted hero block into body"
             fi
 
