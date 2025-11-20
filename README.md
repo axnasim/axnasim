@@ -16,6 +16,10 @@
   &#8287;                                    
 </p>
 
+## Recent Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ## DevOps
 - [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS applications
 - [DevOps Roadmap](https://roadmap.sh/devops) - Interactive learning path for DevOps
@@ -68,5 +72,3 @@
 - [Welcoming Contributions]
 
 *Feel free to contribute or suggest additional resources!*
-
-

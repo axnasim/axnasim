@@ -30,13 +30,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name of: Convert README.md to index.html
+      - name: Convert README.md to index.html
         uses: anmol098/md-to-html-action@v2.0.1
         with:
           markdown_file: 'README.md'
           output_file: 'index.html'
-          # Optional: Add a basic stylesheet for better looks
-          # css_file: 'style.css'
+          css_file: 'style.css'
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
