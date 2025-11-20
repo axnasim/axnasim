@@ -44,12 +44,44 @@ jobs:
         with:
           args: /github/workspace/README.md -o /github/workspace/_site/index.html --standalone --css=/github/workspace/style.css
 
-      - name: Copy style.css to _site if present
+      - name: Copy assets into _site (style.css, assets/, icons/, images/, static/)
         run: |
+          set -e
+          # Copy style if present
           if [ -f style.css ]; then
             cp style.css _site/
+            echo "Copied style.css"
           else
-            echo "style.css not found; continuing without it"
+            echo "style.css not found; continuing"
+          fi
+
+          # Copy common asset directories if they exist
+          for d in assets icons images static public; do
+            if [ -d "$d" ]; then
+              echo "Copying $d -> _site/$d"
+              mkdir -p _site/$d
+              cp -R $d/* _site/$d/ || true
+            fi
+          done
+
+          # If assets/site.js exists at repo root, ensure it is available
+          if [ -f assets/site.js ]; then
+            echo "assets/site.js found"
+          fi
+
+      - name: Inject assets/site.js into _site/index.html (if present)
+        run: |
+          # Only inject once; check for existence
+          if [ -f _site/index.html ]; then
+            if grep -q "assets/site.js" _site/index.html; then
+              echo "assets/site.js already injected"
+            else
+              # Insert script tag before closing </body>
+              sed -i '/<\/body>/i <script src="assets/site.js"></script>' _site/index.html || true
+              echo "Injected assets/site.js into _site/index.html"
+            fi
+          else
+            echo "_site/index.html not found; skipping injection"
           fi
 
       - name: Setup Pages
