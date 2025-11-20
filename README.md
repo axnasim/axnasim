@@ -33,8 +33,6 @@
   Engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, sharing insights on Kubernetes and scaling startups.
 </h2>
 
-::: {.resources-grid}
-
 
 ## 🔧 DevOps
 - [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS applications
