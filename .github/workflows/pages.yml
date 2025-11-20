@@ -32,22 +32,26 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    # Run all steps inside a pandoc-enabled container so we don't install pandoc each run.
+    # The image is pinned to a digest for reproducibility.
+    container:
+      image: pandoc/latex@sha256:1cf54d9214a9b52de2f58cf5895cc596a5960711a54d7938dc72f2b23473caf3
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Prepare _site directory
-        run: mkdir -p _site
+        run: mkdir -p /github/workspace/_site
 
-      - name: Convert README.md to index.html (dockerized pandoc - pinned)
-        uses: docker://pandoc/latex@sha256:1cf54d9214a9b52de2f58cf5895cc596a5960711a54d7938dc72f2b23473caf3
-        with:
-          args: /github/workspace/README.md -o /github/workspace/_site/index.html --standalone --css=/github/workspace/style.css
+      - name: Convert README.md to index.html
+        run: |
+          # Run pandoc (available in the container) using absolute workspace paths
+          pandoc /github/workspace/README.md -o /github/workspace/_site/index.html --standalone --css=/github/workspace/style.css
 
       - name: Copy style.css to _site if present
         run: |
-          if [ -f style.css ]; then
-            cp style.css _site/
+          if [ -f /github/workspace/style.css ]; then
+            cp /github/workspace/style.css /github/workspace/_site/
           else
             echo "style.css not found; continuing without it"
           fi
