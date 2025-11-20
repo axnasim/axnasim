@@ -57,6 +57,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // clamp to sensible bounds so extreme values don't break layout
     reserve = Math.max(60, Math.min(280, reserve));
     document.documentElement.style.setProperty('--page-reserve', reserve + 'px');
+
+    // Compute an available per-row height (targeting 2 rows) and apply as maxHeight to cards
+    try{
+      const available = window.innerHeight - reserve;
+      const perRow = Math.max(120, Math.floor(available / 2) - 8); // ensure reasonable minimum
+      const cards = document.querySelectorAll('.resources-grid .card');
+      cards.forEach(c => { c.style.maxHeight = perRow + 'px'; });
+      // If the equalizer is available, re-run it so heights are normalized per-row
+      if(window.equalizeResourcesGrid) window.equalizeResourcesGrid();
+    }catch(e){
+      // defensive: if DOM not ready, ignore
+    }
   }
 
   document.addEventListener('DOMContentLoaded', computePageReserve);
@@ -100,6 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const grids = document.querySelectorAll('.resources-grid');
     grids.forEach(g => equalizeGrid(g));
   }
+
+  // expose a hook so other scripts can trigger re-equalization after sizing changes
+  window.equalizeResourcesGrid = equalizeAll;
 
   // Run after DOM is parsed and a short delay to allow font/layout to stabilize
   document.addEventListener('DOMContentLoaded', () => setTimeout(equalizeAll, 60));
