@@ -29,9 +29,9 @@
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-<h2 style="text-align: center;">
+<h3 style="text-align: center;">
   Engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, sharing insights on Kubernetes and scaling startups.
-</h2>
+</h3>
 
 
 ## 🔧 DevOps
