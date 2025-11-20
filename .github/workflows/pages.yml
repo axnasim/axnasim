@@ -76,6 +76,22 @@ jobs:
             # Fix CSS path produced by pandoc (absolute workspace path) -> relative
             sed -i 's|/github/workspace/style.css|style.css|g' _site/index.html || true
 
+            # Inject a tiny inline preloader script into <head> to set the theme
+            if grep -q "localStorage.getItem('theme')" _site/index.html; then
+              echo "preloader already present"
+            else
+              perl -0777 -pe "s|<head>|<head>\n<script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>|s" -i _site/index.html || true
+              echo "Inserted theme preloader into head"
+            fi
+
+            # Inject a hero block at the top of the body if not present
+            if grep -q 'class="hero"' _site/index.html; then
+              echo "hero already present"
+            else
+              perl -0777 -pe "s|<body([^>]*)>|<body\1>\n<div class=\"hero card\">\n  <img src=\"https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=for-the-badge\" alt=\"Adam Nasim\" width=\"120\"/>\n  <div>\n    <h1 class=\"title\">Adam Nasim</h1>\n    <p class=\"subtitle\">Cloud | Platform | SRE — Ray Framework • ML Enthusiast</p>\n  </div>\n</div>|s" -i _site/index.html || true
+              echo "Inserted hero block into body"
+            fi
+
             if grep -q "assets/site.js" _site/index.html; then
               echo "assets/site.js already injected"
             else

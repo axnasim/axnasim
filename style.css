@@ -1,5 +1,6 @@
 :root{
-    --bg:#0f1720;
+    /* Dark theme defaults */
+    --bg: linear-gradient(180deg, #071029 0%, #071226 40%, #08182b 100%);
     --card:#0b1220;
     --muted:#94a3b8;
     --accent:#36bcf7;
@@ -10,7 +11,7 @@
 /* Light theme (default for GitHub Pages) */
 @media (prefers-color-scheme: light){
     :root{
-        --bg:#f7fafc;
+        --bg: #f7fafc;
         --card:#ffffff;
         --muted:#6b7280;
         --accent:#0366d6;
@@ -24,7 +25,8 @@ body {
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     line-height:1.6;
     color:var(--text);
-    background: linear-gradient(180deg, #071029 0%, #071226 40%, #08182b 100%);
+        /* use the theme background variable (can be a solid color or gradient) */
+        background: var(--bg);
     margin:0;
     padding:40px 20px;
 }
@@ -80,4 +82,24 @@ main, .content, body > div { max-width: 1050px; margin: 0 auto; }
 @media (max-width:600px){
     .hero{flex-direction:column;align-items:flex-start}
     .hero .title{font-size:1.3rem}
+}
+
+/* Explicit attribute-based theme overrides (take precedence over prefers-color-scheme)
+     Allows the JS toggle to switch themes by setting data-theme on <html> */
+[data-theme="light"] {
+    --bg: #f7fafc;
+    --card: #ffffff;
+    --muted: #6b7280;
+    --accent: #0366d6;
+    --text: #111827;
+    --glass: rgba(0,0,0,0.03);
+}
+
+[data-theme="dark"] {
+    --bg: linear-gradient(180deg, #071029 0%, #071226 40%, #08182b 100%);
+    --card:#0b1220;
+    --muted:#94a3b8;
+    --accent:#36bcf7;
+    --text:#e6eef6;
+    --glass: rgba(255,255,255,0.04);
 }
