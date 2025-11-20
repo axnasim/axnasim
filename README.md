@@ -30,7 +30,7 @@
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
-’m an engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, and I regularly share thoughts on Kubernetes and scaling system
+I’m an engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, and I regularly share thoughts on Kubernetes and scaling startups.
 
 ## 🔧 DevOps
 - [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS applications
