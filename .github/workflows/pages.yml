@@ -37,8 +37,20 @@ jobs:
     container:
       image: pandoc/latex@sha256:1cf54d9214a9b52de2f58cf5895cc596a5960711a54d7938dc72f2b23473caf3
     steps:
+      - name: Install git in container (required for actions/checkout)
+        run: |
+          apt-get update
+          apt-get install -y git ca-certificates
+
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: "Diagnostics: list workspace after checkout"
+        run: |
+          echo "Workspace: /github/workspace"
+          ls -la /github/workspace || true
+          echo "Reading README preview (first 20 lines):"
+          head -n 20 /github/workspace/README.md || true
 
       - name: Prepare _site directory
         run: mkdir -p /github/workspace/_site
