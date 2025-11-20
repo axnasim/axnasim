@@ -42,7 +42,7 @@ jobs:
           # Create the _site directory up-front
           mkdir -p _site
           # Run pandoc inside the container, mounting the workspace at /work
-          docker run --rm -v "$GITHUB_WORKSPACE":/work -w /work pandoc/core:3.1.4 \
+          docker run --rm -v "$GITHUB_WORKSPACE":/work -w /work pandoc/latex:3.1 \
             pandoc README.md -o _site/index.html --standalone --css=style.css
           # Copy style.css into _site if present (container wrote to _site)
           if [ -f style.css ]; then
