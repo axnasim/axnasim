@@ -73,6 +73,9 @@ jobs:
         run: |
           # Only inject once; check for existence
           if [ -f _site/index.html ]; then
+            # Fix CSS path produced by pandoc (absolute workspace path) -> relative
+            sed -i 's|/github/workspace/style.css|style.css|g' _site/index.html || true
+
             if grep -q "assets/site.js" _site/index.html; then
               echo "assets/site.js already injected"
             else
