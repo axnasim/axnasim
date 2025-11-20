@@ -36,28 +36,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Convert README.md to index.html (dockerized pandoc)
+      - name: Prepare _site directory
+        run: mkdir -p _site
+
+      - name: Convert README.md to index.html (dockerized pandoc - pinned)
+        uses: docker://pandoc/latex@sha256:1cf54d9214a9b52de2f58cf5895cc596a5960711a54d7938dc72f2b23473caf3
+        with:
+          args: /github/workspace/README.md -o /github/workspace/_site/index.html --standalone --css=/github/workspace/style.css
+
+      - name: Copy style.css to _site if present
         run: |
-          # Quick diagnostics so the Actions log shows what files exist on the runner
-          echo "Workspace: $GITHUB_WORKSPACE"
-          ls -la "$GITHUB_WORKSPACE"
-          echo "-- top of README.md --"
-          head -n 20 README.md || true
-          echo "-- end preview --"
-
-          # Create the _site directory up-front on the host workspace
-          mkdir -p _site
-
-          # Run pandoc inside the container, mounting the workspace at /work.
-          # Use absolute paths so pandoc can't be confused by working-dir differences.
-          docker run --rm -v "$GITHUB_WORKSPACE":/work pandoc/latex:3.1 \
-            pandoc /work/README.md -o /work/_site/index.html --standalone --css=/work/style.css
-
-          # Ensure style.css is present in _site for GitHub Pages
           if [ -f style.css ]; then
             cp style.css _site/
           else
-            echo "style.css not found in repository root; continuing without it"
+            echo "style.css not found; continuing without it"
           fi
 
       - name: Setup Pages
