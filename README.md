@@ -30,10 +30,9 @@
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
-I'm an engineering leader focused on ML, Ray, Reliability, Cloud and Developer Experience. I also opine on kubernetes and Machine Learning.
+’m an engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, and I regularly share thoughts on Kubernetes and scaling system
 
 ## 🔧 DevOps
-
 - [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS applications
 - [DevOps Roadmap](https://roadmap.sh/devops) - Interactive learning path for DevOps
 - [GitOps Guide](https://www.gitops.tech/) - Comprehensive GitOps principles and practices
@@ -42,7 +41,6 @@ I'm an engineering leader focused on ML, Ray, Reliability, Cloud and Developer E
 
 
 ## 👔 Engineering Leadership
-
 - [The Manager's Path](https://www.oreilly.com/library/view/the-managers-path/9781491973882/) - Guide to navigating IC to CTO roles
 - [Staff Engineer Resources](https://staffeng.com/) - Stories and guides for reaching Staff+ levels
 - [Engineering Ladders](http://www.engineeringladders.com/) - Framework for career progression
@@ -51,7 +49,6 @@ I'm an engineering leader focused on ML, Ray, Reliability, Cloud and Developer E
 
 
 ## ☸️ Kubernetes
-
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/) - Official Kubernetes docs
 - [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Must Learn Kubernetes - Bootstrap K8s from scratch
 - [CNCF Landscape](https://landscape.cncf.io/) - Cloud native ecosystem overview
@@ -59,7 +56,6 @@ I'm an engineering leader focused on ML, Ray, Reliability, Cloud and Developer E
 
 
 ## 🐧 Linux
-
 - [Linux Journey](https://linuxjourney.com/) - Interactive Linux learning guide
 - [The Linux Command Line](http://linuxcommand.org/tlcl.php) - Free comprehensive book
 - [Awesome Linux](https://github.com/inputsh/awesome-linux) - Linux software and resources
@@ -70,7 +66,6 @@ I'm an engineering leader focused on ML, Ray, Reliability, Cloud and Developer E
 
 
 ## 🤖 Machine Learning
-
 - [Machine Learning Roadmap](https://roadmap.sh/mlops) - ML Engineer learning path
 - [Fast.ai](https://www.fast.ai/) - Practical deep learning courses
 - [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) - Free ML fundamentals
@@ -78,14 +73,12 @@ I'm an engineering leader focused on ML, Ray, Reliability, Cloud and Developer E
 
 
 ## ⚡ Ray Framework
-
 - [Ray Documentation](https://docs.ray.io/en/latest/) - Official Ray docs
 - [Ray Tutorial](https://github.com/ray-project/tutorial) - Hands-on Ray tutorials
 - [Anyscale Academy](https://github.com/anyscale/academy) - Ray and distributed computing courses
 
 
 ## 🏗️ System Design
-
 - [System Design Primer](https://github.com/donnemartin/system-design-primer) - Comprehensive guide with examples
 - [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Interview questions and solutions
 - [High Scalability](http://highscalability.com/) - Real-world architecture case studies
@@ -95,9 +88,6 @@ I'm an engineering leader focused on ML, Ray, Reliability, Cloud and Developer E
 
 
 ## 📊 Engineering Product Management
-
 - [Engineering vs Product Management](https://www.oreilly.com/library/view/engineering-vs-product/97814) – Intercom Blog
 - [The Role of a Technical Product Manager](https://www.oreilly.com/library/view/the-role-of-a/9781) – Product School- 
 - [Balancing Engineering and Product Priorities](https://www.oreilly.com/library/view/balancing-engineering/9781) – LeadDev
-
-- Welcoming Contributions

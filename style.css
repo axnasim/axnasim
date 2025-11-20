@@ -49,8 +49,8 @@ body {
 .card{
     background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
     border:1px solid var(--glass);
-    padding:18px 20px;
-    border-radius:12px;
+    padding:14px 16px;
+    border-radius:8px;
     box-shadow: 0 6px 18px rgba(2,6,23,0.6);
     margin-bottom:18px;
 }
@@ -73,8 +73,8 @@ h2 + div,
 h2 + pre {
     background: var(--card);
     border: 1px solid var(--glass);
-    padding: 14px 18px;
-    border-radius: 10px;
+    padding: 12px 14px;
+    border-radius: 8px;
     margin: 0 0 18px 0;
 }
 
