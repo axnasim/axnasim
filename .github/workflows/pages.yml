@@ -64,8 +64,10 @@ jobs:
             fi
           done
 
-          # If assets/site.js exists at repo root, ensure it is available
-          if [ -f assets/site.js ]; then
+          # If assets/theme-changer.js or assets/site.js exists at repo root, ensure it is available
+          if [ -f assets/theme-changer.js ]; then
+            echo "assets/theme-changer.js found"
+          elif [ -f assets/site.js ]; then
             echo "assets/site.js found"
           fi
 
@@ -86,12 +88,24 @@ jobs:
 
             # (hero injection removed)
 
-            if grep -q "assets/site.js" _site/index.html; then
-              echo "assets/site.js already injected"
+            # Choose which script exists (preference: theme-changer.js)
+            script_src=""
+            if [ -f assets/theme-changer.js ]; then
+              script_src="assets/theme-changer.js"
+            elif [ -f assets/site.js ]; then
+              script_src="assets/site.js"
+            fi
+
+            if [ -n "$script_src" ]; then
+              if grep -q "$script_src" _site/index.html; then
+                echo "$script_src already injected"
+              else
+                # Insert script tag before closing </body>
+                sed -i "/<\/body>/i <script src=\"$script_src\"></script>" _site/index.html || true
+                echo "Injected $script_src into _site/index.html"
+              fi
             else
-              # Insert script tag before closing </body>
-              sed -i '/<\/body>/i <script src="assets/site.js"></script>' _site/index.html || true
-              echo "Injected assets/site.js into _site/index.html"
+              echo "No theme script found in assets/; skipping script injection"
             fi
           else
             echo "_site/index.html not found; skipping injection"
