@@ -21,7 +21,7 @@
   &#8287;                                    
 </p> -->
 
-<h2 align="center">
+<p align="center">
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adamnasim/)
   &nbsp;&nbsp;
   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@axnasim)
@@ -29,7 +29,7 @@
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-<h2 align="center">
+<h2 align="center>
 I’m an engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, and I regularly share thoughts on Kubernetes and scaling startups.
 </h2>
 
