@@ -21,6 +21,8 @@
 }
 
 html,body{height:100%;}
+/* Responsive base font and page padding so layout scales across viewports */
+html{ font-size: clamp(15px, 1.2vw + 0.2rem, 18px); }
 body {
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     line-height:1.6;
@@ -28,8 +30,8 @@ body {
     /* use the theme background variable (can be a solid color or gradient) */
     background: var(--bg);
     margin:0;
-    /* reduce page padding so wider layouts fit without horizontal scrolling */
-    padding:32px 16px;
+    /* responsive padding: small on phones, comfortable on desktop */
+    padding: clamp(12px, 2vw, 32px);
     box-sizing: border-box;
 }
 
@@ -38,6 +40,8 @@ body {
     max-width:980px;
     margin:0 auto;
     box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .hero{
@@ -100,20 +104,34 @@ a:hover{text-decoration:underline}
 /* Grid layout for README topic cards: make 4 columns on wide screens, 2 on medium, 1 on small */
 .resources-grid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* auto-fit with minmax avoids forcing horizontal overflow: columns collapse to fit space */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 16px;
     align-items: stretch; /* make cells stretch vertically */
     grid-auto-rows: 1fr;   /* help equalize row heights when cards are set to 100% */
 }
 
 /* Remove extra bottom margin inside a grid cell (cards already have visual separation via grid gap) */
+
 .resources-grid .card{ margin-bottom: 0; display:flex; flex-direction:column; height:100%; }
 
-/* Let the list or paragraph inside a card take remaining vertical space so cards line up */
+/* Let the list or paragraph inside a card take remaining vertical space so cards line up
+   and allow scrolling if content overflows. This avoids the page growing beyond viewport. */
 .resources-grid .card > ul,
 .resources-grid .card > p,
 .resources-grid .card > div{
     flex: 1 1 auto;
+    overflow: auto;
+    /* small right padding so vertical scrollbar doesn't overlap text */
+    padding-right: 6px;
+}
+
+/* Optional conservative max-height per card to help guarantee two rows fit in viewport.
+   Adjust --page-reserve to account for header/footer/padding. You can remove this if you
+   prefer JS-driven exact sizing. */
+.resources-grid .card{
+    --page-reserve: 140px; /* estimated header + padding; tweak if needed */
+    max-height: calc((100vh - var(--page-reserve)) / 2);
 }
 
 @media (max-width:1100px){
