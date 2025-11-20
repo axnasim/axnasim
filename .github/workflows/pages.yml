@@ -87,8 +87,17 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: "Diagnostics: show _site contents"
+        run: |
+          echo "_site directory listing:"
+          ls -la _site || true
+          echo "-- head of _site/index.html --"
+          head -n 40 _site/index.html || true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site/
 
       - name: Deploy to GitHub Pages
         id: deployment
