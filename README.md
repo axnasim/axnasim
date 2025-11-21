@@ -33,6 +33,7 @@
   Engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, sharing insights on Kubernetes and scaling startups.
 </h3>
 
+<div class="resources-grid">
 
 ## 🔧 DevOps
 - [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS applications
@@ -101,3 +102,5 @@
 - [What is a Technical Product Manager?](https://productschool.com/blog/product-management-2/technical-product-manager/) – Product School
 - [How to balance product and engineering priorities](https://leaddev.com/product/how-balance-product-and-engineering-priorities) – LeadDev
 :::
+
+</div>

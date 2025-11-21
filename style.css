@@ -64,30 +64,10 @@ h2 {
     margin-bottom: 0.4rem;
 }
 
-h2 + ul,
-h2 + p,
-h2 + div,
-h2 + pre {
-    background: var(--card);
-    border: 1px solid var(--glass);
-    padding: 12px 14px;
-    border-radius: 8px;
-    margin: 0 0 18px 0;
-}
-
-/* Make lists inside these cards look clean */
-h2 + ul {
-    padding-left: 1.05rem;
-}
-
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
 
 .badges img{vertical-align:middle}
-
-/* Resource list layout */
-.resources{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
-.resources .card{padding:16px}
 
 /* Grid layout for README topic cards: make 4 columns on wide screens, 2 on medium, 1 on small */
 .resources-grid{
@@ -99,15 +79,22 @@ a:hover{text-decoration:underline}
     grid-auto-rows: 1fr;   /* help equalize row heights when cards are set to 100% */
 }
 
-/* Remove extra bottom margin inside a grid cell (cards already have visual separation via grid gap) */
+/* Style each section (which is a div child of the grid) as a card */
+.resources-grid > div {
+    background: var(--card);
+    border: 1px solid var(--glass);
+    padding: 14px 16px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+    margin-bottom: 0; /* grid gap handles spacing */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
-.resources-grid .card{ margin-bottom: 0; display:flex; flex-direction:column; height:100%; }
-
-/* Let the list or paragraph inside a card take remaining vertical space so cards line up
-   and allow scrolling if content overflows. This avoids the page growing beyond viewport. */
-.resources-grid .card > ul,
-.resources-grid .card > p,
-.resources-grid .card > div{
+/* Let the list inside a card take remaining vertical space so cards line up.
+   This also allows scrolling if content overflows. */
+.resources-grid > div > ul {
     flex: 1 1 auto;
     overflow: auto;
     /* small right padding so vertical scrollbar doesn't overlap text */
