@@ -37,17 +37,17 @@
 
 ::: {.card}
 ## 🔧 DevOps
-- [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS applications
-- [DevOps Roadmap](https://roadmap.sh/devops) - Interactive learning path for DevOps
-- [GitOps Guide](https://www.gitops.tech/) - Comprehensive GitOps principles and practices
-- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) - Technical interview questions and exercises
-- [Infrastructure as Code](https://www.terraform.io/intro) - Terraform introduction and best practices
+- [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS apps
+- [DevOps Roadmap](https://roadmap.sh/devops) - DevOps Interactive Learning Path
+- [GitOps Guide](https://www.gitops.tech/) - Comprehensive GitOps Bible
+- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) - Technical interview Q&A
+- [Infrastructure as Code](https://www.terraform.io/intro) - Terraform
 :::
 
 ::: {.card}
 ## 👔 Engineering Leadership
 - [The Manager's Path](https://www.oreilly.com/library/view/the-managers-path/9781491973882/) - Guide to navigating IC to CTO roles
-- [Staff Engineer Resources](https://staffeng.com/) - Stories and guides for reaching Staff+ levels
+- [Staff Engineer Resources](https://staffeng.com/) - Stories & guides for reaching Staff+ levels
 - [Engineering Ladders](http://www.engineeringladders.com/) - Framework for career progression
 - [Leading Snowflakes](http://leadingsnowflakes.com/) - Engineering management handbook
 - [Rands Leadership Slack](https://randsinrepose.com/welcome-to-rands-leadership-slack/) - Community for tech leaders
@@ -56,7 +56,7 @@
 ::: {.card}
 ## ☸️ Kubernetes
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/) - Official Kubernetes docs
-- [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Must Learn Kubernetes - Bootstrap K8s from scratch
+- [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Bootstrap K8s from scratch
 - [CNCF Landscape](https://landscape.cncf.io/) - Cloud native ecosystem overview
 - [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Curated K8s resources
 :::
@@ -64,7 +64,7 @@
 ::: {.card}
 ## 🐧 Linux
 - [Linux Journey](https://linuxjourney.com/) - Interactive Linux learning guide
-- [The Linux Command Line](http://linuxcommand.org/tlcl.php) - Free comprehensive book
+- [Linux Command Line](http://linuxcommand.org/tlcl.php) - Free comprehensive book
 - [Awesome Linux](https://github.com/inputsh/awesome-linux) - Linux software and resources
 - [Linux Performance](https://www.brendangregg.com/linuxperf.html) - Performance analysis tools
 - [ArchWiki](https://wiki.archlinux.org/) - Comprehensive Linux documentation
@@ -84,7 +84,7 @@
 ## ⚡ Ray Framework
 - [Ray Documentation](https://docs.ray.io/en/latest/) - Official Ray docs
 - [Ray Tutorial](https://github.com/ray-project/tutorial) - Hands-on Ray tutorials
-- [Anyscale Academy](https://github.com/anyscale/academy) - Ray and distributed computing courses
+- [Anyscale Academy](https://github.com/anyscale/academy) - Ray and distributed computing
 :::
 
 ::: {.card}
@@ -99,9 +99,9 @@
 
 ::: {.card}
 ## 📊 Engineering Product Management
-- [Engineering vs. product: how to find the balance](https://www.intercom.com/blog/engineering-vs-product-how-to-find-the-balance/) – Intercom Blog
-- [What is a Technical Product Manager?](https://productschool.com/blog/product-management-2/technical-product-manager/) – Product School
-- [How to balance product and engineering priorities](https://leaddev.com/product/how-balance-product-and-engineering-priorities) – LeadDev
+- [Engineering vs. Product: how to find the balance](https://www.intercom.com/blog/engineering-vs-product-how-to-find-the-balance/) – Intercom Blog
+- [What is Technical Product Manager?](https://productschool.com/blog/product-management-2/technical-product-manager/) – Product School
+- [Balance product and engineering priorities](https://leaddev.com/product/how-balance-product-and-engineering-priorities) – LeadDev
 :::
 
 </div>
