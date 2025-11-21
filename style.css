@@ -73,7 +73,7 @@ a:hover{text-decoration:underline}
 .resources-grid{
     display: grid;
     /* auto-fit with minmax avoids forcing horizontal overflow: columns collapse to fit space */
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 16px;
     align-items: stretch; /* make cells stretch vertically */
     grid-auto-rows: 1fr;   /* help equalize row heights when cards are set to 100% */
@@ -99,6 +99,11 @@ a:hover{text-decoration:underline}
     overflow: auto;
     /* small right padding so vertical scrollbar doesn't overlap text */
     padding-right: 6px;
+}
+
+/* Reduce font size inside cards for better fit */
+.resources-grid .card li {
+    font-size: 0.9rem;
 }
 
 /* Card height and row fitting are handled by JS: no CSS max-height is enforced here. */
