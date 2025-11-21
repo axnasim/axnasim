@@ -1,0 +1,14 @@
+# Build output directory
+_site/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Common temporary/backup file patterns
+*.swo
+*.swp
+*~
+*.bak
+*.tmp
+* copy.css
