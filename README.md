@@ -97,7 +97,7 @@
 
 
 ## 📊 Engineering Product Management
-- [Engineering vs Product Management](https://www.oreilly.com/library/view/engineering-vs-product/97814) – Intercom Blog
-- [The Role of a Technical Product Manager](https://www.oreilly.com/library/view/the-role-of-a/9781) – Product School-
-- [Balancing Engineering and Product Priorities](https://www.oreilly.com/library/view/balancing-engineering/9781) – LeadDev
+- [Engineering vs. product: how to find the balance](https://www.intercom.com/blog/engineering-vs-product-how-to-find-the-balance/) – Intercom Blog
+- [What is a Technical Product Manager?](https://productschool.com/blog/product-management-2/technical-product-manager/) – Product School
+- [How to balance product and engineering priorities](https://leaddev.com/product/how-balance-product-and-engineering-priorities) – LeadDev
 :::

@@ -18,10 +18,8 @@ function toggleTheme() {
 
 // Initialize theme
 document.addEventListener('DOMContentLoaded', () => {
-  const root = document.documentElement;
-  const savedTheme = localStorage.getItem('theme') ||
-                    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  root.setAttribute('data-theme', savedTheme);
+  // The theme is set by an inline script in <head> to prevent FOUC. We just need to read it.
+  const savedTheme = document.documentElement.getAttribute('data-theme') || 'light';
 
   // Wire up the toggle button if present
   const themeBtn = document.getElementById('theme-toggle') || document.querySelector('.theme-toggle');

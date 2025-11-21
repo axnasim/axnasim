@@ -8,18 +8,6 @@
     --glass: rgba(255,255,255,0.04);
 }
 
-/* Light theme (default for GitHub Pages) */
-@media (prefers-color-scheme: light){
-    :root{
-        --bg: #f7fafc;
-        --card:#ffffff;
-        --muted:#6b7280;
-        --accent:#0366d6;
-        --text:#111827;
-        --glass: rgba(0,0,0,0.03);
-    }
-}
-
 html,body{height:100%;}
 /* Responsive base font and page padding so layout scales across viewports */
 html{ font-size: clamp(15px, 1.2vw + 0.2rem, 18px); }
