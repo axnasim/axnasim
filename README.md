@@ -35,6 +35,7 @@
 
 <div class="resources-grid">
 
+::: {.card}
 ## 🔧 DevOps
 - [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS applications
 - [DevOps Roadmap](https://roadmap.sh/devops) - Interactive learning path for DevOps
@@ -43,7 +44,7 @@
 - [Infrastructure as Code](https://www.terraform.io/intro) - Terraform introduction and best practices
 :::
 
-
+::: {.card}
 ## 👔 Engineering Leadership
 - [The Manager's Path](https://www.oreilly.com/library/view/the-managers-path/9781491973882/) - Guide to navigating IC to CTO roles
 - [Staff Engineer Resources](https://staffeng.com/) - Stories and guides for reaching Staff+ levels
@@ -52,7 +53,7 @@
 - [Rands Leadership Slack](https://randsinrepose.com/welcome-to-rands-leadership-slack/) - Community for tech leaders
 :::
 
-
+::: {.card}
 ## ☸️ Kubernetes
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/) - Official Kubernetes docs
 - [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Must Learn Kubernetes - Bootstrap K8s from scratch
@@ -60,7 +61,7 @@
 - [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Curated K8s resources
 :::
 
-
+::: {.card}
 ## 🐧 Linux
 - [Linux Journey](https://linuxjourney.com/) - Interactive Linux learning guide
 - [The Linux Command Line](http://linuxcommand.org/tlcl.php) - Free comprehensive book
@@ -71,7 +72,7 @@
 - [Sed & Awk](http://www.nylxs.com/docs/sedandawk.pdf) - Are they dead yet
 :::
 
-
+::: {.card}
 ## 🤖 Machine Learning
 - [Machine Learning Roadmap](https://roadmap.sh/mlops) - ML Engineer learning path
 - [Fast.ai](https://www.fast.ai/) - Practical deep learning courses
@@ -79,14 +80,14 @@
 - [Kaggle](https://www.kaggle.com/learn) - Hands-on ML tutorials and competitions
 :::
 
-
+::: {.card}
 ## ⚡ Ray Framework
 - [Ray Documentation](https://docs.ray.io/en/latest/) - Official Ray docs
 - [Ray Tutorial](https://github.com/ray-project/tutorial) - Hands-on Ray tutorials
 - [Anyscale Academy](https://github.com/anyscale/academy) - Ray and distributed computing courses
 :::
 
-
+::: {.card}
 ## 🏗️ System Design
 - [System Design Primer](https://github.com/donnemartin/system-design-primer) - Comprehensive guide with examples
 - [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Interview questions and solutions
@@ -96,7 +97,7 @@
 - [Designing Data-Intensive Applications](https://dataintensive.net/) - Essential system design book
 :::
 
-
+::: {.card}
 ## 📊 Engineering Product Management
 - [Engineering vs. product: how to find the balance](https://www.intercom.com/blog/engineering-vs-product-how-to-find-the-balance/) – Intercom Blog
 - [What is a Technical Product Manager?](https://productschool.com/blog/product-management-2/technical-product-manager/) – Product School

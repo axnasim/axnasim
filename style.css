@@ -79,8 +79,8 @@ a:hover{text-decoration:underline}
     grid-auto-rows: 1fr;   /* help equalize row heights when cards are set to 100% */
 }
 
-/* Style each section (which is a div child of the grid) as a card */
-.resources-grid > div {
+/* Style each card inside the grid */
+.resources-grid .card {
     background: var(--card);
     border: 1px solid var(--glass);
     padding: 14px 16px;
@@ -94,7 +94,7 @@ a:hover{text-decoration:underline}
 
 /* Let the list inside a card take remaining vertical space so cards line up.
    This also allows scrolling if content overflows. */
-.resources-grid > div > ul {
+.resources-grid .card > ul {
     flex: 1 1 auto;
     overflow: auto;
     /* small right padding so vertical scrollbar doesn't overlap text */
