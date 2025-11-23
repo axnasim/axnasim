@@ -19,6 +19,7 @@
   &#8287;
   <a href="https://medium.com/@axnasim"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
   &#8287;
+  <a href="https://medium.com/@axnasim"><img src="https://github.com/axnasim/axnasim/blob/master/icons/medium.png"/></a>
 </p>
 
 <!-- <p align="center">
