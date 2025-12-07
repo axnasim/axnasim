@@ -97,7 +97,7 @@
       <ul>
         <li><a href="https://stoic-cto.com/p/12-product-management-for-engineers">PM for Engineers</a> – The Stoic</li>
         <li><a href="https://productschool.com/blog/product-management-2/technical-product-manager/">What is TPM?</a> – Product School</li>
-        <li><a href="https://leaddev.com/product/how-balance-product-and-engineering-priorities">Priorities Balance</a> – LeadDev</li>
+        <li><a href="https://leaddev.com/management/4-strategies-amplify-engineering-leader-productivity">Strategies</a> – LeadDev</li>
       </ul>
     </td>
   </tr>
