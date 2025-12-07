@@ -1,107 +1,104 @@
-
 <h1 align="center">
   <a href="https://github.com/axnasim">
     <img src="https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=for-the-badge" alt="Adam Nasim" width="200">
   </a>
 </h1>
 
-<!-- <p align="center">
-  [![Adam Nasim](https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=for-the-badge)](https://github.com/axnasim)
-</p> -->
-
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&width=435&lines=8%2B+years+Engineering+Leadership;Cloud+%7C+Platform+%7C+SRE+%7C+Startups;Ray+Framework+%7C+ML+Enthusiast+;Techie+Writer+%26+Learner" alt="Typing SVG" /></a>
 </p>
 
-<!-- Social icons section -->
 <p align="center">
   <a href="https://www.linkedin.com/in/adamnasim/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   &#8287;
   <a href="https://medium.com/@axnasim"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
-  &#8287;
 </p>
 
-<!-- <p align="center">
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adamnasim/)
-  &nbsp;&nbsp;
-  [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@axnasim)
-</p> -->
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-<h3 style="text-align: center;">
+<h3 align="center">
   Engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, sharing insights on Kubernetes and scaling startups.
 </h3>
 
-<div class="resources-grid">
-
-::: {.card}
-## 🔧 DevOps
-- [The Twelve-Factor App](https://12factor.net/) - Methodology for building modern SaaS apps
-- [DevOps Roadmap](https://roadmap.sh/devops) - DevOps Interactive Learning Path
-- [GitOps Guide](https://www.gitops.tech/) - Comprehensive GitOps Bible
-- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) - Technical interview Q&A
-- [Infrastructure as Code](https://www.terraform.io/intro) - Terraform
-:::
-
-::: {.card}
-## 👔 Engineering Leadership
-- [The Manager's Path](https://www.oreilly.com/library/view/the-managers-path/9781491973882/) - Guide to navigating IC to CTO roles
-- [Staff Engineer Resources](https://staffeng.com/) - Stories & guides for reaching Staff+ levels
-- [Engineering Ladders](http://www.engineeringladders.com/) - Framework for career progression
-- [Leading Snowflakes](http://leadingsnowflakes.com/) - Engineering management handbook
-- [Rands Leadership Slack](https://randsinrepose.com/welcome-to-rands-leadership-slack/) - Community for tech leaders
-:::
-
-::: {.card}
-## ☸️ Kubernetes
-- [Kubernetes Documentation](https://kubernetes.io/docs/home/) - Official Kubernetes docs
-- [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Bootstrap K8s from scratch
-- [CNCF Landscape](https://landscape.cncf.io/) - Cloud native ecosystem overview
-- [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Curated K8s resources
-:::
-
-::: {.card}
-## 🐧 Linux
-- [Linux Journey](https://linuxjourney.com/) - Interactive Linux learning guide
-- [Linux Command Line](http://linuxcommand.org/tlcl.php) - Free comprehensive book
-- [Awesome Linux](https://github.com/inputsh/awesome-linux) - Linux software and resources
-- [Linux Performance](https://www.brendangregg.com/linuxperf.html) - Performance analysis tools
-- [ArchWiki](https://wiki.archlinux.org/) - Comprehensive Linux documentation
-- [Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/) - Official kernel docs
-- [Sed & Awk](http://www.nylxs.com/docs/sedandawk.pdf) - Are they dead yet
-:::
-
-::: {.card}
-## 🤖 Machine Learning
-- [Machine Learning Roadmap](https://roadmap.sh/mlops) - ML Engineer learning path
-- [Fast.ai](https://www.fast.ai/) - Practical deep learning courses
-- [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) - Free ML fundamentals
-- [Kaggle](https://www.kaggle.com/learn) - Hands-on ML tutorials and competitions
-:::
-
-::: {.card}
-## ⚡ Ray Framework
-- [Ray Documentation](https://docs.ray.io/en/latest/) - Official Ray docs
-- [Ray Tutorial](https://github.com/ray-project/tutorial) - Hands-on Ray tutorials
-- [Anyscale Academy](https://github.com/anyscale/academy) - Ray and distributed computing
-:::
-
-::: {.card}
-## 🏗️ System Design
-- [System Design Primer](https://github.com/donnemartin/system-design-primer) - Comprehensive guide with examples
-- [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Interview questions and solutions
-- [High Scalability](http://highscalability.com/) - Real-world architecture case studies
-- [Awesome System Design](https://github.com/madd86/awesome-system-design) - Curated resources
-- [ByteByteGo](https://bytebytego.com/) - System design education platform
-- [Designing Data-Intensive Applications](https://dataintensive.net/) - Essential system design book
-:::
-
-::: {.card}
-## 📊 Engineering Product Management
-- [Engineering vs. Product: how to find the balance](https://www.intercom.com/blog/engineering-vs-product-how-to-find-the-balance/) – Intercom Blog
-- [What is Technical Product Manager?](https://productschool.com/blog/product-management-2/technical-product-manager/) – Product School
-- [Balance product and engineering priorities](https://leaddev.com/product/how-balance-product-and-engineering-priorities) – LeadDev
-:::
-
-</div>
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🔧 DevOps</h3>
+      <ul>
+        <li><a href="https://12factor.net/">The Twelve-Factor App</a> - Modern SaaS apps</li>
+        <li><a href="https://roadmap.sh/devops">DevOps Roadmap</a> - Interactive Path</li>
+        <li><a href="https://www.gitops.tech/">GitOps Guide</a> - GitOps Bible</li>
+        <li><a href="https://github.com/bregman-arie/devops-exercises">DevOps Exercises</a> - Interview Q&A</li>
+        <li><a href="https://www.terraform.io/intro">IaC</a> - Terraform</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <h3>👔 Engineering Leadership</h3>
+      <ul>
+        <li><a href="https://www.oreilly.com/library/view/the-managers-path/9781491973882/">The Manager's Path</a> - IC to CTO roles</li>
+        <li><a href="https://staffeng.com/">Staff Engineer Resources</a> - Reach Staff+</li>
+        <li><a href="http://www.engineeringladders.com/">Engineering Ladders</a> - Career framework</li>
+        <li><a href="http://leadingsnowflakes.com/">Leading Snowflakes</a> - Mgmt handbook</li>
+        <li><a href="https://randsinrepose.com/welcome-to-rands-leadership-slack/">Rands Leadership</a> - Slack community</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>☸️ Kubernetes</h3>
+      <ul>
+        <li><a href="https://kubernetes.io/docs/home/">K8s Docs</a> - Official docs</li>
+        <li><a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">K8s the Hard Way</a> - Bootstrap from scratch</li>
+        <li><a href="https://landscape.cncf.io/">CNCF Landscape</a> - Ecosystem overview</li>
+        <li><a href="https://github.com/ramitsurana/awesome-kubernetes">Awesome Kubernetes</a> - Curated resources</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <h3>🐧 Linux</h3>
+      <ul>
+        <li><a href="https://linuxjourney.com/">Linux Journey</a> - Interactive guide</li>
+        <li><a href="http://linuxcommand.org/tlcl.php">Linux Command Line</a> - Free book</li>
+        <li><a href="https://github.com/inputsh/awesome-linux">Awesome Linux</a> - Resources</li>
+        <li><a href="https://www.brendangregg.com/linuxperf.html">Linux Performance</a> - Analysis tools</li>
+        <li><a href="https://wiki.archlinux.org/">ArchWiki</a> - Documentation</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🤖 Machine Learning</h3>
+      <ul>
+        <li><a href="https://roadmap.sh/mlops">ML Roadmap</a> - ML Engineer path</li>
+        <li><a href="https://www.fast.ai/">Fast.ai</a> - Practical deep learning</li>
+        <li><a href="https://developers.google.com/machine-learning/crash-course">Google ML Crash Course</a> - Fundamentals</li>
+        <li><a href="https://www.kaggle.com/learn">Kaggle</a> - Hands-on tutorials</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <h3>⚡ Ray Framework</h3>
+      <ul>
+        <li><a href="https://docs.ray.io/en/latest/">Ray Docs</a> - Official docs</li>
+        <li><a href="https://github.com/ray-project/tutorial">Ray Tutorial</a> - Hands-on</li>
+        <li><a href="https://github.com/anyscale/academy">Anyscale Academy</a> - Dist. computing</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🏗️ System Design</h3>
+      <ul>
+        <li><a href="https://github.com/donnemartin/system-design-primer">System Design Primer</a> - Guide</li>
+        <li><a href="https://github.com/checkcheckzz/system-design-interview">Interview Questions</a> - Solutions</li>
+        <li><a href="http://highscalability.com/">High Scalability</a> - Case studies</li>
+        <li><a href="https://bytebytego.com/">ByteByteGo</a> - Education platform</li>
+        <li><a href="https://dataintensive.net/">DDIA Book</a> - Essential reading</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <h3>📊 Eng Product Management</h3>
+      <ul>
+        <li><a href="https://www.intercom.com/blog/engineering-vs-product-how-to-find-the-balance/">Eng vs. Product</a> – Intercom</li>
+        <li><a href="https://productschool.com/blog/product-management-2/technical-product-manager/">What is TPM?</a> – Product School</li>
+        <li><a href="https://leaddev.com/product/how-balance-product-and-engineering-priorities">Priorities Balance</a> – LeadDev</li>
+      </ul>
+    </td>
+  </tr>
+</table>
