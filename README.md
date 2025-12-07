@@ -95,7 +95,7 @@
     <td valign="top" width="50%">
       <h3>📊 Eng Product Management</h3>
       <ul>
-        <li><a href="https://www.intercom.com/blog/engineering-vs-product-how-to-find-the-balance/">Eng vs. Product</a> – Intercom</li>
+        <li><a href="https://stoic-cto.com/p/12-product-management-for-engineers">PM for Engineers</a> – Intercom</li>
         <li><a href="https://productschool.com/blog/product-management-2/technical-product-manager/">What is TPM?</a> – Product School</li>
         <li><a href="https://leaddev.com/product/how-balance-product-and-engineering-priorities">Priorities Balance</a> – LeadDev</li>
       </ul>
