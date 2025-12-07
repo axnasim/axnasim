@@ -48,7 +48,7 @@
         <li><a href="https://kubernetes.io/docs/home/">K8s Docs</a> - Official docs</li>
         <li><a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">K8s the Hard Way</a> - Bootstrap from scratch</li>
         <li><a href="https://landscape.cncf.io/">CNCF Landscape</a> - Ecosystem overview</li>
-        <li><a href="https://github.com/ramitsurana/awesome-kubernetes">Awesome Kubernetes</a> - Curated resources</li>
+        <li><a href="https://ramitsurana.gitbook.io/awesome-kubernetes/docs">Awesome Kubernetes</a> - Curated resources</li>
       </ul>
     </td>
     <td valign="top" width="50%">
