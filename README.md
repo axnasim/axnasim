@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/axnasim">
-    <img src="https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=for-the-badge" alt="Adam Nasim" width="200">
+    <img src="https://img.shields.io/badge/Adam%20Nasim-36BCF7?style=flat" alt="Adam Nasim" width="200">
   </a>
 </h1>
 
@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/adamnasim/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/adamnasim/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
   &#8287;
-  <a href="https://medium.com/@axnasim"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
+  <a href="https://medium.com/@axnasim"><img src="https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white"/></a>
 </p>
 
 <h3 align="center">
