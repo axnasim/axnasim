@@ -15,7 +15,7 @@
 </p>
 
 <h3 align="center">
-  Engineering leader passionate about Machine Learning, Ray, Reliability, and Developer Experience, sharing insights on Kubernetes and scaling startups.
+  Engineering leader passionate about Machine Learning, Ray, Reliability, and DevX, sharing insights on Kubernetes and scaling startups.
 </h3>
 
 <table>
